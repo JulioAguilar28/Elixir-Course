@@ -12,6 +12,10 @@ defmodule Counter do
       :world
 
   """
+  def hello(name) do
+    "Hello again #{name}"
+  end
+
   def hello do
     :world
   end
